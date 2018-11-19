@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        ImageParser imgParser = new ImageParser("hj.jpg");
+        ImageParser imgParser = new ImageParser("hai.jpg");
         XlsxHandler xlsxHandler = new XlsxHandler();
 
         xlsxHandler.generateImageFile(imgParser.getColorList());
